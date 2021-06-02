@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell multipleTouchEnabled="YES" contentMode="scaleAspectFill" id="gTV-IL-0wX" customClass="FullScreenCollectionViewCell" customModule="VK" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="152" height="148"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="152" height="148"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gte-3c-Knu">
+                        <rect key="frame" x="0.0" y="0.0" width="152" height="148"/>
+                        <viewLayoutGuide key="contentLayoutGuide" id="Jwf-W7-hnj"/>
+                        <viewLayoutGuide key="frameLayoutGuide" id="t9s-JD-Ryi"/>
+                    </scrollView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" highlightedImage="1" translatesAutoresizingMaskIntoConstraints="NO" id="8lC-1B-l74">
+                        <rect key="frame" x="0.0" y="0.0" width="152" height="148"/>
+                    </imageView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="gte-3c-Knu" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="4R0-yb-1q7"/>
+                <constraint firstItem="8lC-1B-l74" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="8OJ-5J-2h7"/>
+                <constraint firstAttribute="bottom" secondItem="8lC-1B-l74" secondAttribute="bottom" id="Kyc-7O-O7Z"/>
+                <constraint firstItem="8lC-1B-l74" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="PgV-gR-VgP"/>
+                <constraint firstAttribute="trailing" secondItem="gte-3c-Knu" secondAttribute="trailing" id="S05-o5-hyu"/>
+                <constraint firstItem="gte-3c-Knu" firstAttribute="height" secondItem="8lC-1B-l74" secondAttribute="height" id="T1n-tO-1Wn"/>
+                <constraint firstAttribute="trailing" secondItem="8lC-1B-l74" secondAttribute="trailing" id="VHG-kc-xrm"/>
+                <constraint firstItem="gte-3c-Knu" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="a2f-mI-wEP"/>
+                <constraint firstAttribute="bottom" secondItem="gte-3c-Knu" secondAttribute="bottom" id="cXo-3l-PCn"/>
+                <constraint firstItem="gte-3c-Knu" firstAttribute="width" secondItem="8lC-1B-l74" secondAttribute="width" id="pPc-0x-q2L"/>
+            </constraints>
+            <size key="customSize" width="152" height="148"/>
+            <connections>
+                <outlet property="photoView" destination="8lC-1B-l74" id="bC9-c5-PZt"/>
+                <outlet property="scrollView" destination="gte-3c-Knu" id="Mb3-P7-VOj"/>
+            </connections>
+            <point key="canvasLocation" x="130" y="109"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="1" width="900" height="1600"/>
+    </resources>
+</document>
