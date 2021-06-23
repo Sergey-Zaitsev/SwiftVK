@@ -1,0 +1,6 @@
+framework module Pods_VKBetta {
+  umbrella header "Pods-VKBetta-umbrella.h"
+
+  export *
+  module * { export * }
+}
