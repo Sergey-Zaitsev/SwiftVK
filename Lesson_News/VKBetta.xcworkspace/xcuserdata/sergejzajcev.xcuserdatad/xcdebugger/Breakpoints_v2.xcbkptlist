@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "74DBE3AD-4761-4204-A5F4-751EEB12B8CC"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8D5E9E49-0B4F-44A4-8668-0A5368DB2916"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VKBetta/Models/News/VKServiceNews.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "VKServiceNews"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "52393FDB-518D-4FA4-A872-FB3AC91DF0F3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VKBetta/Models/News/VKServiceNews.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "setup(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3FCE0BAD-F748-43FD-8ABC-FEB822D31FF9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VKBetta/Models/News/VKServiceNews.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "105"
+            endingLineNumber = "105"
+            landmarkName = "vkSdkAccessTokenUpdated(_:oldToken:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "54795A34-770A-4C49-A8DF-E4BC4C27C089"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VKBetta/Controllers/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "loadVKAuth()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BF6B8E64-9CA4-4D00-9A43-438EB4AB994F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VKBetta/Controllers/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "LoginViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "BF6B8E64-9CA4-4D00-9A43-438EB4AB994F - ae2eb5f6bb047c62"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VKBetta.LoginViewController.session.getter : VKBetta.Session"
+                  moduleName = "VKBetta"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sergejzajcev/Desktop/VKBetta/VKBetta/Controllers/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "BF6B8E64-9CA4-4D00-9A43-438EB4AB994F - 1962407a581fa05d"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VKBetta.LoginViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; VKBetta.LoginViewController"
+                  moduleName = "VKBetta"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sergejzajcev/Desktop/VKBetta/VKBetta/Controllers/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "159">
+               </Location>
+               <Location
+                  uuid = "BF6B8E64-9CA4-4D00-9A43-438EB4AB994F - 95c606886eac7767"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VKBetta.LoginViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;VKBetta.LoginViewController&gt;"
+                  moduleName = "VKBetta"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sergejzajcev/Desktop/VKBetta/VKBetta/Controllers/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "115">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A511EDC7-22D9-4900-89BC-0E1979153EE3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VKBetta/Controllers/StartVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "StartVC"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "A511EDC7-22D9-4900-89BC-0E1979153EE3 - b2480f2b61f98d24"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VKBetta.StartVC.vkService.getter : VKBetta.VKServiceNews"
+                  moduleName = "VKBetta"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sergejzajcev/Desktop/VKBetta/VKBetta/Controllers/StartVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "A511EDC7-22D9-4900-89BC-0E1979153EE3 - 81d00fbcb26d2802"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VKBetta.StartVC.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; VKBetta.StartVC"
+                  moduleName = "VKBetta"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sergejzajcev/Desktop/VKBetta/VKBetta/Controllers/StartVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "154">
+               </Location>
+               <Location
+                  uuid = "A511EDC7-22D9-4900-89BC-0E1979153EE3 - f045196a4957384f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VKBetta.StartVC.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;VKBetta.StartVC&gt;"
+                  moduleName = "VKBetta"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sergejzajcev/Desktop/VKBetta/VKBetta/Controllers/StartVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "110">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
